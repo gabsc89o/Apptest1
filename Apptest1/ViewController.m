@@ -51,7 +51,12 @@
     float celsius = [_tfCelsius1.text floatValue];
         float fahrenheit = 1.8 *celsius +32;
         _tfFahrenheit1.text = [NSString stringWithFormat:@"%f",fahrenheit ];
+}
+-(IBAction)FahreheitToCelsius:(id)sender{
     
+    float fahrenheit = [_tfFahrenheit1.text floatValue];
+    float celsius = (fahrenheit -32)/1.8;
+    _tfFahrenheit1.text = [NSString stringWithFormat:@"%f",celsius ];
 }
 
 @end

@@ -87,6 +87,7 @@
                                 <color key="backgroundColor" red="1" green="0.81288485629999996" blue="0.1197520765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Convertir"/>
                                 <connections>
+                                    <action selector="FahreheitToCelsius:" destination="BYZ-38-t0r" eventType="touchDown" id="ob0-sl-Msv"/>
                                     <action selector="celsiusToFahrenheit:" destination="BYZ-38-t0r" eventType="touchDown" id="1N0-88-JFO"/>
                                 </connections>
                             </button>
