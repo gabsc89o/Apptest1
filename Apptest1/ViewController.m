@@ -21,19 +21,19 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:<#animated#>]];
+    //[super viewWillAppear:animated];
     NSLog(@"viewWillAppear");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:<#animated#>];
+    //[super viewDidAppear:<#animated#>];
     NSLog(@"viewDidAppear");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:<#animated#>];
+    //[super viewWillDisappear:<#animated#>];
     NSLog(@"viewWillDisappear");
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -47,6 +47,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(IBAction)celsiusToFahrenheit:(id)sender{
+    
+}
 
 @end

@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+@property IBOutlet UITextField *tfCelsius1;
+@property IBOutlet UITextField *tfFahrenheit1;
+@property IBOutlet UITextField *tfKilometro1;
+@property IBOutlet UITextField *tfMilla1;
 @end
 
