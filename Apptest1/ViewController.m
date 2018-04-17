@@ -21,19 +21,19 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    //[super viewWillAppear:animated];
+    
     NSLog(@"viewWillAppear");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    //[super viewDidAppear:<#animated#>];
+    
     NSLog(@"viewDidAppear");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
-    //[super viewWillDisappear:<#animated#>];
+    
     NSLog(@"viewWillDisappear");
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -48,6 +48,9 @@
     // Dispose of any resources that can be recreated.
 }
 -(IBAction)celsiusToFahrenheit:(id)sender{
+    float celsius = [_tfCelsius1.text floatValue];
+        float fahrenheit = 1.8 *celsius +32;
+        _tfFahrenheit1.text = [NSString stringWithFormat:@"%f",fahrenheit ];
     
 }
 
