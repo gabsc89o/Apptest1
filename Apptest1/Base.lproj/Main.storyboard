@@ -81,14 +81,13 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7v-WV-kdh">
-                                <rect key="frame" x="165" y="244" width="94" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qok-cr-dSz">
+                                <rect key="frame" x="232" y="244" width="106" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.81288485629999996" blue="0.1197520765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Convertir"/>
+                                <state key="normal" title="Convertir F-C"/>
                                 <connections>
-                                    <action selector="FahreheitToCelsius:" destination="BYZ-38-t0r" eventType="touchDown" id="ob0-sl-Msv"/>
-                                    <action selector="celsiusToFahrenheit:" destination="BYZ-38-t0r" eventType="touchDown" id="1N0-88-JFO"/>
+                                    <action selector="FahreheitToCelsius:" destination="BYZ-38-t0r" eventType="touchDown" id="u5d-eF-fpI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVt-eE-AFx">
@@ -96,6 +95,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2633448994" green="1" blue="0.25729804979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Calcular"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7v-WV-kdh">
+                                <rect key="frame" x="97" y="244" width="106" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.81288485629999996" blue="0.1197520765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Convertir C-F"/>
+                                <connections>
+                                    <action selector="celsiusToFahrenheit:" destination="BYZ-38-t0r" eventType="touchDown" id="1N0-88-JFO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -110,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.5" y="133.5"/>
+            <point key="canvasLocation" x="135.19999999999999" y="132.68365817091455"/>
         </scene>
     </scenes>
 </document>

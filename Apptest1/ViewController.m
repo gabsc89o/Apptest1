@@ -56,7 +56,7 @@
     
     float fahrenheit = [_tfFahrenheit1.text floatValue];
     float celsius = (fahrenheit -32)/1.8;
-    _tfFahrenheit1.text = [NSString stringWithFormat:@"%f",celsius ];
+    _tfCelsius1.text = [NSString stringWithFormat:@"%f",celsius ];
 }
 
 @end
